@@ -28,7 +28,7 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
 PORT = os.environ.get("PORT", "5001")
 
 #Database --⚠️ REQUIRED--
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sanji:sanji@sanjibots2689.xxgs2.mongodb.net/?retryWrites=true&w=1")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sn117020:g3tULq1KLqxgzfgd@cluster0.ju3tzdx.mongodb.net/?retryWrites=true&w=majority&appName=ZoroProFileBot")
 DB_NAME = os.environ.get("DATABASE_NAME", "Zoro_Pro_File_Bot")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
