@@ -36,7 +36,7 @@ def convert_time(duration_seconds: int) -> str:
 #=====================================================================================##
 DEL_MSG = (
     "<blockquote><b>⚠️ Due to Copyright issues...</b>\n\n"
-    "Your file will be deleted automatically in <b><i>10 MINUTES.</i></b>\n"
+    "Your file will be deleted automatically in <a href="https://t.me/{username}">{time}</a>..\n"
     "So please forward it to your Saved Messages for future availability.</blockquote>\n"
     "<blockquote><b>📝 Note:</b>\n"
     "If you're facing any sound issue, open the file in VLC or MX Player for better audio performance.\n"
