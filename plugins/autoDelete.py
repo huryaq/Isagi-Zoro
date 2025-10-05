@@ -35,11 +35,13 @@ def convert_time(duration_seconds: int) -> str:
 #.........Auto Delete Functions.......#
 #=====================================================================================##
 DEL_MSG = (
-    "<b>⚠️ This file will be deleted automatically in "
+    "<blockquote><b>⚠️ Due to Copyright issues...</b>\n\n"
+    "Your file will be deleted automatically in "
     "<a href='https://t.me/{username}'>{time}</a>.\n"
-    "Forward it to your Saved Messages to keep a copy!</b>\n\n"
-    "<b>📝 𝐍ᴏᴛᴇ:\n"
-    "ɪғ ʏᴏᴜ ғᴀᴄɪɴɢ sᴏᴜɴᴅ ɪssᴜᴇ, ᴏᴘᴇɴ ғɪʟᴇ ɪɴ ᴍx/ᴠʟᴄ ᴘʟᴀʏᴇʀ ғᴏʀ ʙᴇᴛᴛᴇʀ ᴀᴜᴅɪᴏ ᴘᴇʀғᴏʀᴍᴀɴᴄᴇ.</b>"
+    "So please forward it to your Saved Messages for future availability.</blockquote>\n\n"
+    "<blockquote><b>📝 Note:</b>\n"
+    "If you're facing any sound issue, open the file in VLC or MX Player for better audio performance.\n"
+    "Regards~ @{username}</blockquote>"
 )
 
 #Function for provide auto delete notification message
