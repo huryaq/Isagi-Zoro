@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Zoro_Pro_File_Bot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://graph.org/file/8279929cb9b305442328e-8cab97b85964501bd7.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://graph.org/file/2912b8fb2cd76389c2fde-5aff3751e914d8fb7e.png")).split() #Required
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
